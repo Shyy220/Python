@@ -1,9 +1,2 @@
-base = int(input("Enter the base number: "))
-exponent = int(input("Enter the exponent (power): "))
-
-result = 1
-
-for _ in range(exponent):
-    result = result * base
-
-print(f"{base} raised to the power of {exponent} is: {result}")
+import math
+print(math.pow(5,2))
