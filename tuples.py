@@ -1,18 +1,7 @@
-tuplex = ("tuple", False, 3.2, 3)
-print(tuplex)
+import math
 
-tuple = (5,6,7,3,6,7,6,7)
-print(tuple)
+numbers_tuple = (2, 3, 4, 5)
 
-tuplex = tuplex + (9,)
-print(tuplex)
+product = math.prod(numbers_tuple)
 
-tuple1 = (50,60,70,80,50,50,50)
-print(tuple1.count(50))
-
-tuplex = (5,4,3,4,5,3,2,4)
-_slice = tuplex[3:5]
-print(_slice)
-
-tuple2 = (4,5,6,5,4,5,6,5,4,5)
-print(tuplex[:6])
+print(f"The product of the tuple is: {product}")
